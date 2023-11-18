@@ -2,7 +2,7 @@
 Tic Tac Toe Player
 """
 
-import math
+#import math
 
 X = "X"
 O = "O"
@@ -142,6 +142,7 @@ def max_value(board):
 
 def min_value(board):
     v=100
+    w=[]
     if terminal(board):
         #print("min_value returns ",utility(board))
         return [None,utility(board)]
